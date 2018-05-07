@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Unit 1 Code Adventure: Form 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/_normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <form>
+  <h1>Form 03</h1>
+<!--    Add the elements of your form here-->
+    <div class="form-inner">
+      <fieldset>
+        <legend><span class="num-style">1</span><span> </span>Candidate Info</legend>
+        <label for="name"><input id="name" type="text" name="info" placeholder="Your Name *"></label>
+        <label for="email"><input id="email" type="email" name="info" placeholder="Your Email *"></label>
+        <textarea name="about" placeholder="About yourself"></textarea>
+        <label for="interests">Interests:</label>
+        <select id="interests" name="interests">
+          <option value="fishkeeping">Fishkeeping</option>
+          <option value="hiking">Hiking</option>
+          <option value="reading">Reading</option>
+          <option value="traveling">Traveling</option>
+          <option value="cooking">Cooking</option>
+          <option value="gardening">Gardening</option>
+          <option value="skiing">Skiing</option>
+          <option value="gaming">Gaming</option>
+          <option value="other">Other</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend><span class="num-style">2</span><span> </span>Additional Info</legend>
+        <textarea name="school" placeholder="About Your School"></textarea>
+        <button type="submit">Apply</button>
+      </fieldset>
+    </div>
+    </form>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
